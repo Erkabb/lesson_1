@@ -24,3 +24,5 @@ const Header = () => {
   );
 };
 export default Header;
+//Props==component hoorond ugugdul damjuulna. Zuwhun child ruga ugugdul damjuulna
+//De structing==object zadlah person={name:"nar", age:90} ==> const {name, age}=person;

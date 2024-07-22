@@ -1,8 +1,10 @@
-const Section = () => {
+const Section = ({ nationalID, companyYear }) => {
   return (
     <>
       <section>
-        <h1>Hello</h1>
+        <h1>
+          Hello {nationalID} {companyYear}
+        </h1>
       </section>
     </>
   );
